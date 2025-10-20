@@ -7,9 +7,7 @@ import { FaCalendarAlt, FaClock } from "react-icons/fa";
 
 
 
-
 export default function LatestBlogs() {
-
 
 const blogs = [
   {
@@ -66,6 +64,7 @@ const blogs = [
 
 
   return (
+
     <section className="py-12 px-4 md:px-8 lg:px-12 xl:px-20">
 
       <div className="text-center py-5">

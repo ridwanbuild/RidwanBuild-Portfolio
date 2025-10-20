@@ -15,7 +15,7 @@ const projects = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
     links: {
       code: "https://github.com/yourusername/ecommerce-platform",
-      demo: "https://ecommerce-platform-demo.vercel.app",
+      demo: "#",
     },
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     links: {
       code: "https://github.com/yourusername/portfolio",
-      demo: "https://yourportfolio.vercel.app",
+      demo: "#",
     },
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     tags: ["React", "Next.js", "Markdown"],
     links: {
       code: "https://github.com/yourusername/blog-platform",
-      demo: "https://blog-platform-demo.vercel.app",
+      demo: "#",
     },
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     tags: ["React", "Tailwind CSS", "Firebase"],
     links: {
       code: "https://github.com/yourusername/task-manager",
-      demo: "https://task-manager-demo.vercel.app",
+      demo: "#",
     },
   },
   {
@@ -63,7 +63,7 @@ const projects = [
     tags: ["Next.js", "CSS", "JavaScript"],
     links: {
       code: "https://github.com/yourusername/restaurant-website",
-      demo: "https://restaurant-demo.vercel.app",
+      demo: "#",
     },
   },
   {
@@ -75,7 +75,7 @@ const projects = [
     tags: ["React", "API", "Tailwind CSS"],
     links: {
       code: "https://github.com/yourusername/weather-app",
-      demo: "https://weather-app-demo.vercel.app",
+      demo: "#",
     },
   },
 ];
@@ -147,7 +147,7 @@ export default function Features() {
       </div>
 
       <div className="py-10 text-center">
-        <Link href={"/projects"} className="bgRed px-8 py-2 rounded text-white">
+        <Link href={'/projects'}  className="bgRed cursor-pointer px-8 py-2 rounded text-white">
           View All
         </Link>
       </div>

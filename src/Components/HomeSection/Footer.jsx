@@ -60,11 +60,11 @@ export default function Footer() {
           </p>
 
           {/* ==== Subscribe Form ==== */}
-          <form className="flex items-center max-w-md border border-gray-300 focus-within:border-black transition">
+          <form className="flex items-center max-w-md w-full border border-gray-300  px focus:outline-none  focus-within:border-rose-500 transition">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 bg-transparent py-2 px-2 text-sm placeholder:text-gray-500 focus:outline-none focus:ring-0 focus:border-none"
+              className="w-full border-none outline-none px-3"
             />
             <button
               type="submit"
