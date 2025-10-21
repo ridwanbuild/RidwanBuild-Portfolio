@@ -8,7 +8,7 @@ const stats = [
   { number: "200+", label: "Our Project Complete" },
   { number: "80+", label: "Our Natural Products" },
   { number: "300+", label: "Clients Reviews" },
-  { number: "4000+", label: "Our Satisfied Clients" },
+  { number: "450+", label: "Our Satisfied Clients" },
 ];
 
 

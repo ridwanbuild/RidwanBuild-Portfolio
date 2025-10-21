@@ -11,7 +11,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "A full-stack e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.",
-    image: "/features-image/e-commerce-website.png",
+    image: "/features-image/project-01.webp",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
     links: {
       code: "https://github.com/yourusername/ecommerce-platform",
@@ -23,7 +23,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A modern and responsive developer portfolio built with Next.js and Framer Motion.",
-    image: "/features-image/e-commerce-website.png",
+    image: "/features-image/project-02.png",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     links: {
       code: "https://github.com/yourusername/portfolio",
@@ -35,7 +35,7 @@ const projects = [
     title: "Blog Platform",
     description:
       "A content-rich blog platform with Markdown support and SEO optimization.",
-    image: "/features-image/e-commerce-website.png",
+    image: "/features-image/project-03.webp",
     tags: ["React", "Next.js", "Markdown"],
     links: {
       code: "https://github.com/yourusername/blog-platform",
@@ -47,7 +47,7 @@ const projects = [
     title: "Task Manager App",
     description:
       "A productivity app to manage daily tasks with drag-and-drop features.",
-    image: "/features-image/e-commerce-website.png",
+    image: "/features-image/project-04.webp",
     tags: ["React", "Tailwind CSS", "Firebase"],
     links: {
       code: "https://github.com/yourusername/task-manager",
@@ -59,7 +59,7 @@ const projects = [
     title: "Restaurant Website",
     description:
       "Responsive restaurant website with menu, booking, and gallery sections.",
-    image: "/features-image/e-commerce-website.png",
+    image: "/features-image/project-05.webp",
     tags: ["Next.js", "CSS", "JavaScript"],
     links: {
       code: "https://github.com/yourusername/restaurant-website",
@@ -71,7 +71,8 @@ const projects = [
     title: "Weather App",
     description:
       "A real-time weather app using OpenWeatherMap API and dynamic UI.",
-    image: "/features-image/e-commerce-website.png",
+    image: "/features-image/project-06.webp",
+
     tags: ["React", "API", "Tailwind CSS"],
     links: {
       code: "https://github.com/yourusername/weather-app",

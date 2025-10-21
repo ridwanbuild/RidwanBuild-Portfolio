@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function HeroSection() {
@@ -47,12 +48,12 @@ export default function HeroSection() {
                 Hire Me
               </a>
 
-              <a
-                href="#portfolio"
+              <Link 
+                href="/projects"
                 className="px-6 py-3 font-semibold rounded-full bgBlack transition"
               >
                 View Portfolio
-              </a>
+              </Link>
 
             </div>
 
