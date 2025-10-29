@@ -9,20 +9,33 @@ const education = [
     qualification: "Bachelor of Arts — Political Science",
     details: [],
   },
+
   {
-    year: "2024 – 2025",
-    institution: "Programming Hero",
+    year: "2024 Present",
+    institution: "Programming Hero (on going)",
     qualification:
       "Full Stack Developer — MERN + TypeScript, Redux, Next.js, Node.js, Express, MongoDB, PostgreSQL, Prisma, Docker, Nginx, AWS",
     details: [],
   },
+
   {
-    year: "2023 - 2024",
+    year: "2024",
     institution: "Ostad",
     qualification:
       "MERN Development (Ongoing) — Advanced Front-End Developer (React, Next.js)",
     details: [],
   },
+
+  {
+    year: "2023",
+    institution: "Creative IT",
+    qualification:
+      "Front-End Developer (HTML, CSS, JavaScript, etc)",
+    details: [],
+  },
+
+
+
   
 ];
 

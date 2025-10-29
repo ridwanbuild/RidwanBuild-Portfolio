@@ -1,5 +1,6 @@
 "use client";
 
+import SplitText from "gsap/src/SplitText";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -30,6 +31,11 @@ export default function HeroSection() {
               Hi, I’m Ridwan —{" "}
               <span className="textRed">Web Developer & Designer</span>
             </h1>
+
+
+
+
+
 
             <p className="max-w-xl mx-auto lg:mx-0">
               I’m a frontend developer skilled in React, Next.js, TypeScript,

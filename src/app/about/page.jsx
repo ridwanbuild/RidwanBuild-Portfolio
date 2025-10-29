@@ -23,10 +23,11 @@ export default function AboutPage() {
 
           <div className="z-20 ">
 
-            
-            <div className="py-3">
-              <Heading3 text="About Me" />
-            </div>
+    
+
+              <h2 className="text-3xl font-bold text-center mb-10 textBlack">
+          About <span className="textRed">Me</span>
+        </h2>
 
             {/* About Me content */}
             <div className="text-gray-900  leading-relaxed ">

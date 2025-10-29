@@ -20,6 +20,7 @@ export default function ContactPage() {
     >
       <div className="container m-auto px-4">
         {/* Heading */}
+        
         <h2 className="text-3xl font-bold text-center mb-10 textBlack">
           Contact <span className="textRed">Me</span>
         </h2>

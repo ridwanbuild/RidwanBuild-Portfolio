@@ -67,9 +67,9 @@ const blogs = [
 
     <section className="py-12 px-4 md:px-8 lg:px-12 xl:px-20">
 
-      <div className="text-center py-5">
-        <Heading3 text={'Latest Blogs'}></Heading3>
-      </div>
+        <h2 className="text-3xl font-bold text-center mb-10 textBlack">
+          Latest <span className="textRed">Blogs</span>
+        </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogs.map((blog) => (

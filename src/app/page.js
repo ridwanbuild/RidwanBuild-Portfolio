@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import HeroSection from "../Components/HomeSection/Hero_Section";
 import ExperienceSection from "../Components/HomeSection/ExperienceSection";
 import FeaturesPage from "@/Components/HomeSection/Features";
@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
 
-    <div className="">
+    <div >
       <HeroSection></HeroSection>
 
       <div className="container m-auto px-4">
