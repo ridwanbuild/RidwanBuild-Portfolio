@@ -23,8 +23,7 @@ export default function AboutPage() {
 
           <div className="z-20 ">
 
-    
-
+  
               <h2 className="text-3xl font-bold text-center mb-10 textBlack">
           About <span className="textRed">Me</span>
         </h2>

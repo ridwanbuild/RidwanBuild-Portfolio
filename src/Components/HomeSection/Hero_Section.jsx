@@ -4,6 +4,7 @@ import SplitText from "gsap/src/SplitText";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
@@ -33,10 +34,6 @@ export default function HeroSection() {
             </h1>
 
 
-
-
-
-
             <p className="max-w-xl mx-auto lg:mx-0">
               I’m a frontend developer skilled in React, Next.js, TypeScript,
               and modern JavaScript frameworks — building fast, responsive web
@@ -47,18 +44,20 @@ export default function HeroSection() {
             {/* ✅ Buttons */}
             <div className="flex flex-wrap lg:justify-start gap-4 pt-5">
 
-              <a
-                href="#contact"
-                className="px-10 py-3 text-white bgRed font-semibold rounded-full transition"
+              <Link 
+                href="/cv"
+                className="lg:px-10 px-5 py-3 text-white bgRed font-semibold rounded-full transition"
               >
-                Hire Me
-              </a>
+                Download CV
+              </Link>
 
               <Link 
-                href="/projects"
-                className="px-6 py-3 font-semibold rounded-full bgBlack transition"
+                href="https://github.com/ridwanbuild"
+                className="lg:px-10 px-4 flex items-center gap-2 py-3 font-semibold rounded-full bgBlack transition"
               >
-                View Portfolio
+                <FaGithub size={20} />
+
+                GitHub
               </Link>
 
             </div>
