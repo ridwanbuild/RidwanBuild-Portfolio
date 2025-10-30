@@ -14,8 +14,9 @@ export default function ConnectUs() {
   ];
 
   return (
-    <div className="flex w-full fixed items-center justify-center py-3 bottom-2">
-      <div className="flex items-center border shadow-md gap-7 px-10 py-3 justify-center rounded-full backdrop-blur-[1px] border-gray-200 bg-gradient-to-r from-pink-100 via-purple-50 to-blue-100">
+    <div className="flex w-full fixed top-1/2 -translate-y-1/2 items-center   left-2 py-3 bottom-2">
+
+      <div className="shadow-md flex flex-col gap-7 py-5 px-3 justify-center rounded-full backdrop-blur-[4px] border-gray-200 bg-white/50">
         {icons.map((item, index) => (
           <div
             key={index}
