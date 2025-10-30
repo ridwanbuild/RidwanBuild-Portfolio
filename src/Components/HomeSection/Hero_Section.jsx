@@ -53,7 +53,7 @@ export default function HeroSection() {
 
               <Link 
                 href="https://github.com/ridwanbuild"
-                className="lg:px-10 px-4 flex items-center gap-2 py-3 font-semibold rounded-full bgBlack transition"
+                className="lg:px-10 px-6 flex items-center gap-2 py-3 font-semibold rounded-full border transition"
               >
                 <FaGithub size={20} />
 
