@@ -12,7 +12,7 @@ export default function Home() {
     <div >
       <HeroSection></HeroSection>
 
-      <div className="container m-auto px-4">
+      <div className="container m-auto  px-4">
         <ExperienceSection></ExperienceSection>
       <FeaturesPage></FeaturesPage>
       <LatestBlogs></LatestBlogs>

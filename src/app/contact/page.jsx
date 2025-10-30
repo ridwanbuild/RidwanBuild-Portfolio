@@ -18,10 +18,10 @@ export default function ContactPage() {
           "linear-gradient(135deg, #fef2f2 0%, #f9fafb 50%, #e0f2fe 100%)",
       }}
     >
-      <div className="container m-auto px-4">
+      <div className="container pt-15 m-auto px-4">
         {/* Heading */}
         
-        <h2 className="text-3xl font-bold text-center mb-10 textBlack">
+        <h2 className="text-3xl font-bold lg:text-center mb-5 textBlack">
           Contact <span className="textRed">Me</span>
         </h2>
 
@@ -30,9 +30,11 @@ export default function ContactPage() {
           
           {/* ===== Left Side: Contact Info ===== */}
           <div className="">
+
             <h3 className="text-xl font-semibold mb-3 textBlack">
               Get in <span className="textRed">Touch</span>
             </h3>
+            
             <p className="text-gray-600 mb-8 text-sm leading-relaxed">
               I'm always open to discussing new projects, creative ideas, or
               opportunities to be part of your vision.

@@ -27,13 +27,13 @@ export default function RootLayout({ children }) {
       >
 
         <Navbar></Navbar>
+        <ConnectUs></ConnectUs>
 
-
-        <div className="mt-18">
+        <div className="mt-18  ">
           {children}
         </div>
 
-          <ConnectUs></ConnectUs>
+          
         <Footer></Footer>
       </body>
     </html>

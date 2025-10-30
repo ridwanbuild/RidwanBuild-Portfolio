@@ -78,8 +78,8 @@ export default function BlogsPage() {
         }}
       />
 
-      <div className="relative z-10">
-        <div className="text-center py-5">
+      <div className="relative pt-10 z-10">
+        <div className="lg:text-center py-5">
           <Heading3 text={"Blogs"} />
         </div>
 

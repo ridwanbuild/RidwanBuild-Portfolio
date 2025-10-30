@@ -17,7 +17,7 @@ export default function CvPage() {
       </p>
 
       {/* CV Preview Image */}
-      <div className="shadow-lg rounded-xl overflow-hidden border-rose-400 border mb-8">
+      <div className="shadow-lg rounded-xl overflow-hidden border-rose-100 border mb-8">
         <Image
           src="/cv-image-01.webp" // 👈 place your image in /public/cv-demo.png
           alt="CV Preview"

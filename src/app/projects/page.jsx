@@ -101,9 +101,9 @@ export default function FeaturesPage() {
         }}
       />
 
-      <div className="relative container mx-auto px-4 z-10">
+      <div className="relative pt-15 container mx-auto px-4 z-10">
 
-  <h2 className="text-3xl font-bold text-center mb-10 textBlack">
+  <h2 className="text-3xl font-bold lg:text-center mb-10 textBlack">
           Feature <span className="textRed">Project</span>
         </h2>
 

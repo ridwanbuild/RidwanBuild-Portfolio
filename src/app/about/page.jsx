@@ -19,12 +19,12 @@ export default function AboutPage() {
           }}
         />
 
-        <div className="container  m-auto px-4 py-20 flex items-center justify-center">
+        <div className="container pt-25 m-auto px-4 py-20 flex items-center justify-center">
 
           <div className="z-20 ">
 
   
-              <h2 className="text-3xl font-bold text-center mb-10 textBlack">
+              <h2 className="text-3xl font-bold  mb-5 textBlack">
           About <span className="textRed">Me</span>
         </h2>
 
