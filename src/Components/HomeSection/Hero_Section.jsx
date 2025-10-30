@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <section className="bg-[url('https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/hero/gradient-bg-with-grid.png')] bg-cover bg-center bg-no-repeat text-slate-800 text-sm font-[Poppins,sans-serif]">
       <div className="container m-auto px-4 flex items-center justify-center">
-        <div className="lg:flex items-center gap-8 py-20 justify-between">
+        <div className="lg:flex items-center gap-8 py-18 justify-between">
           
           {/* ✅ Image section */}
           <div className="lg:pt-0 flex lg:w-96 bg-gradient-to-t from-zinc-200 via-slate-200 to-gray-100 border-3 rounded-2xl border-blue-400 items-center justify-center order-1 lg:order-2">
