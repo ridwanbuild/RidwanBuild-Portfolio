@@ -46,14 +46,14 @@ export default function HeroSection() {
 
               <Link 
                 href="/cv"
-                className="lg:px-10 px-5 py-3 text-white bgRed font-semibold rounded-full transition"
+                className="lg:px-10 px-4 py-3 text-white bgRed lg:font-semibold rounded-full transition"
               >
-                Download CV
+                Explore Resume
               </Link>
 
               <Link 
                 href="https://github.com/ridwanbuild"
-                className="lg:px-10 px-6 flex items-center gap-2 py-3 font-semibold rounded-full border transition"
+                className="lg:px-10 px-6 flex items-center gap-2 py-3 lg:font-semibold rounded-full border transition"
               >
                 <FaGithub size={20} />
 

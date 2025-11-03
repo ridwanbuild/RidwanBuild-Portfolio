@@ -55,6 +55,8 @@ export default function Navbar() {
             </Link>
           </div>
 
+          
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-gray-700 cursor-pointer focus:outline-none"
