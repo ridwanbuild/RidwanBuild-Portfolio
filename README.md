@@ -1,5 +1,5 @@
 
-# 🚀 Personal Portfolio Website (Next.js)
+# #🚀 Personal Portfolio Website (Next.js)
 
 Welcome to my **Personal Portfolio Website**, built with **Next.js**, **Tailwind CSS**, and deployed on **Vercel**.  
 This portfolio showcases my skills, projects, experience, and professional background as a developer.
