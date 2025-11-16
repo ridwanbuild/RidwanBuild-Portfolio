@@ -3,82 +3,8 @@
 import Heading3 from "@/Reusable/Heading3";
 import Image from "next/image";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { projectsData } from "../../../public/ProjectData";
 
-const projects = [
-  {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "A full-stack e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.",
-    image: "/features-image/project-01.webp",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    links: {
-      code: "https://github.com/yourusername/ecommerce-platform",
-      demo: "#",
-    },
-  },
-  {
-    id: 2,
-    title: "Portfolio Website",
-    description:
-      "A modern and responsive developer portfolio built with Next.js and Framer Motion.",
-    image: "/features-image/project-02.png",
-    tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    links: {
-      code: "https://github.com/yourusername/portfolio",
-      demo: "#",
-    },
-  },
-  {
-    id: 3,
-    title: "Blog Platform",
-    description:
-      "A content-rich blog platform with Markdown support and SEO optimization.",
-    image: "/features-image/project-03.webp",
-    tags: ["React", "Next.js", "Markdown"],
-    links: {
-      code: "https://github.com/yourusername/blog-platform",
-      demo: "#",
-    },
-  },
-  {
-    id: 4,
-    title: "Task Manager App",
-    description:
-      "A productivity app to manage daily tasks with drag-and-drop features.",
-    image: "/features-image/project-04.webp",
-    tags: ["React", "Tailwind CSS", "Firebase"],
-    links: {
-      code: "https://github.com/yourusername/task-manager",
-      demo: "#",
-    },
-  },
-  {
-    id: 5,
-    title: "Restaurant Website",
-    description:
-      "Responsive restaurant website with menu, booking, and gallery sections.",
-    image: "/features-image/project-05.webp",
-    tags: ["Next.js", "CSS", "JavaScript"],
-    links: {
-      code: "https://github.com/yourusername/restaurant-website",
-      demo: "#",
-    },
-  },
-  {
-    id: 6,
-    title: "Weather App",
-    description:
-      "A real-time weather app using OpenWeatherMap API and dynamic UI.",
-    image: "/features-image/project-06.webp",
-
-    tags: ["React", "API", "Tailwind CSS"],
-    links: {
-      code: "https://github.com/yourusername/weather-app",
-      demo: "#",
-    },
-  },
-];
 
 export default function FeaturesPage() {
   return (
@@ -109,7 +35,7 @@ export default function FeaturesPage() {
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
+          {projectsData.map((project) => (
             <div
               key={project.id}
               className="flex flex-col border border-gray-100 rounded-xl p-4 shadow-lg bg-white/90 backdrop-blur-sm hover:shadow-xl transition duration-300"
@@ -125,7 +51,7 @@ export default function FeaturesPage() {
 
               {/* Content */}
               <div className="flex-1">
-                <h3 className="text-lg font-bold textRed mt-4">
+                <h3 className="lg:text-lg font-bold textRed mt-4">
                   {project.title}
                 </h3>
                 <p className="mt-2 text-sm text-gray-700">

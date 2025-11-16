@@ -6,6 +6,8 @@ import Link from "next/link";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
+
+
   {
     id: 1,
     title: "E-commerce Platform",
@@ -18,6 +20,8 @@ const projects = [
       demo: "#",
     },
   },
+
+
   {
     id: 2,
     title: "Portfolio Website",
@@ -30,6 +34,8 @@ const projects = [
       demo: "#",
     },
   },
+
+
   {
     id: 3,
     title: "Blog Platform",
@@ -42,6 +48,8 @@ const projects = [
       demo: "#",
     },
   },
+
+
   {
     id: 4,
     title: "Task Manager App",
@@ -54,6 +62,8 @@ const projects = [
       demo: "#",
     },
   },
+
+
   {
     id: 5,
     title: "Restaurant Website",
@@ -66,6 +76,7 @@ const projects = [
       demo: "#",
     },
   },
+
   {
     id: 6,
     title: "Weather App",
@@ -79,6 +90,8 @@ const projects = [
       demo: "#",
     },
   },
+
+
 ];
 
 export default function Features() {
@@ -86,9 +99,7 @@ export default function Features() {
     <section className="py-12 ">
 
 
-     <h2 className="text-3xl font-bold text-center mb-10 textBlack">
-          Feature <span className="textRed">Project</span>
-        </h2>
+   
          
 
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
