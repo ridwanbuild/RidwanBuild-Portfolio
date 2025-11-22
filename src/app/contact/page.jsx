@@ -82,6 +82,8 @@ export default function ContactPage() {
           {/* ===== Right Side: Contact Form ===== */}
           <div className="">
             <form className="space-y-4">
+              
+              
               <div>
                 <label className="block text-gray-700 text-sm font-medium mb-1">
                   Name

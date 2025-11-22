@@ -51,13 +51,33 @@ export default function CategoryData() {
             key={project.id}
             className="flex flex-col border border-gray-100 rounded-xl p-4 shadow-lg bg-white hover:shadow-xl transition-md"
           >
-            <Image
-              src={project.image}
-              alt={project.title}
-              width={400}
-              height={250}
-              className="rounded-lg object-cover w-full h-56 sm:h-64 md:h-56 lg:h-60"
-            />
+
+
+<div className="relative">
+  <div
+    className="absolute inset-0 z-0"
+    style={{
+      backgroundImage: `
+        linear-gradient(135deg, #FFB5A7 0%, #F8D7DA 25%, #E8F5E8 75%, #B8F2D0 100%)`,
+    }}
+    
+  ></div>
+
+  <Image
+    src={project.image}
+    alt={project.title}
+    width={400}
+    height={250}
+    className="rounded-lg object-contain w-full h-50 p-5 lg:h-60 relative z-10"
+  />
+
+</div>
+
+
+
+
+
+            
 
             {/* CONTENT */}
             <div className="flex-1">
@@ -82,7 +102,8 @@ export default function CategoryData() {
             </div>
 
             {/* LINKS */}
-            <div className="mt-5 flex gap-4 items-center border-t border-gray-100 pt-4">
+            <div className="mt-5 justify-between flex gap-4 items-center border-t border-gray-100 pt-4">
+
               <a
                 href={project.links.code}
                 target="_blank"
@@ -90,6 +111,7 @@ export default function CategoryData() {
               >
                 <FaGithub /> Code
               </a>
+
               <a
                 href={project.links.demo}
                 target="_blank"

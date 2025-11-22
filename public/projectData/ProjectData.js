@@ -10,7 +10,7 @@ export const projectsData = [
     title: "Real Estate Landing Page",
     category: "Frontend",
     description: "A clean, modern, and fully responsive real estate landing page featuring property highlights, elegant layouts, contact CTAs, and a premium user experience. Optimized for conversions and built with smooth UI sections.",
-    image: "/Frontend/Real-Estate.webp",
+    image: "/features-image/Real-Estate.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API"],
     links: {
       code: "https://github.com/ridwanbuild/Trustbrick-landing-page",
@@ -18,13 +18,13 @@ export const projectsData = [
     },
   },
 
-
+  
   {
     id: 2,
     title: "Fitness Landing Page",
     category: "Frontend",
     description: "A fast, responsive, and performance-focused fitness landing page designed for gyms and training programs. Includes bold visuals, pricing sections, workout highlights, and strong call-to-action areas.",
-    image: "/Frontend/Fitness-01.webp",
+    image: "/features-image/Fitness-01.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API"],
     links: {
       code: "https://github.com/ridwanbuild/Fitness-Landing-Page",
@@ -36,7 +36,7 @@ export const projectsData = [
     title: "Dental Health Landing Page",
     category: "Frontend",
     description: "A professional and clean healthcare landing page for dental clinics. Features modern UI, service-focused sections, testimonial blocks, appointment CTAs, and smooth navigation.",
-    image: "/Frontend/Dental-Health-01.webp",
+    image: "/features-image/Dental-Health-01.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API"],
     links: {
       code: "https://github.com/ridwanbuild/Heath-Care-Detnal-Landing-Page",
@@ -48,7 +48,7 @@ export const projectsData = [
     title: "Omega Watch E-commerce Landing",
     category: "Frontend",
     description: "A premium e-commerce landing page crafted for luxury watch brands. Features high-end styling, elegant hero sections, product showcases, and minimalistic visual branding.",
-    image: "/Frontend/Omega-Watch-01.webp",
+    image: "/features-image/Omega-Watch-01.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API"],
     links: {
       code: "https://github.com/ridwanbuild/Omega-Watch-E-commerce-site",
@@ -60,7 +60,7 @@ export const projectsData = [
     title: "Single Product Dynamic E-commerce",
     category: "Frontend",
     description: "A dynamic single-product online shop with clean minimalist UI, product gallery, responsive layout, and smooth scrolling experience. Built for simplicity and user engagement.",
-    image: "/Frontend/Single-Product-01.webp",
+    image: "/features-image/Single-Product-01.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API"],
     links: {
       code: "https://github.com/ridwanbuild/jaysuing-e-commerce-site",
@@ -77,7 +77,7 @@ export const projectsData = [
     title: "Restaurant Food Delivery (Next.js)",
     category: "MERN Stack",
     description: "A fast and modern food delivery web app built using Next.js with category filtering, menu browsing, dynamic routing, and fully responsive interface.",
-    image: "/Marn-stack/Restaurant-Food-01.webp",
+    image: "/features-image/project-03.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API", "Firebase", "Node JS", "Express JS", "MongoDB"],
     links: {
       code: "https://github.com/ridwanbuild/Restaurant-Food-Delivery-nextjs",
@@ -89,7 +89,7 @@ export const projectsData = [
     title: "Quick E-commerce (Next.js)",
     category: "MERN Stack",
     description: "A high-performance Next.js e-commerce platform with optimized product pages, API integration, responsive UI, and a clean minimal design for a smooth shopping experience.",
-    image: "/Marn-stack/Quick-E-commerce-01.webp",
+    image: "/features-image/project-05.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API", "Firebase", "Node JS", "Express JS", "MongoDB"],
     links: {
       code: "https://github.com/ridwanbuild/quick-e-commerce-site-next.js",
@@ -103,7 +103,7 @@ export const projectsData = [
     title: "Bistro Boss – MERN Full Stack (react js)",
     category: "MERN Stack",
     description: "A complete restaurant management and ordering platform featuring user login, admin dashboard, menu management, secure routes, Firebase hosting, and smooth UX across all pages.",
-    image: "/Marn-stack/Bistro-Boss-01.webp",
+    image: "/features-image/project-01.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API", "Firebase", "Node JS", "Express JS", "MongoDB"],
     links: {
       code: "https://github.com/ridwanbuild/Bistro-Boss-Client-site",
@@ -115,7 +115,7 @@ export const projectsData = [
     title: "WellNest E-commerce (react js)",
     category: "MERN Stack",
     description: "A Firebase-powered e-commerce web app built with React. Includes product browsing, login system, responsive UI, smooth animations, and user-friendly shopping flow.",
-    image: "/Marn-stack/WellNest-E-commerce-01.webp",
+    image: "/features-image/project-02.png",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API", "Firebase"],
     links: {
       code: "https://github.com/ridwanbuild/wellnest-cleint-site",
