@@ -40,6 +40,7 @@ export default function FeaturesPage() {
               key={project.id}
               className="flex flex-col border border-gray-100 rounded-xl p-4 shadow-lg bg-white/90 backdrop-blur-sm hover:shadow-xl transition duration-300"
             >
+
               {/* Image */}
               <Image
                 src={project.image}
@@ -48,6 +49,8 @@ export default function FeaturesPage() {
                 height={250}
                 className="rounded-lg object-cover w-full h-56 sm:h-64 md:h-56 lg:h-60"
               />
+
+
 
               {/* Content */}
               <div className="flex-1">

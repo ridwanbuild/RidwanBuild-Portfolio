@@ -10,7 +10,7 @@ export const projectsData = [
     title: "Real Estate Landing Page",
     category: "Frontend",
     description: "A clean, modern, and fully responsive real estate landing page featuring property highlights, elegant layouts, contact CTAs, and a premium user experience. Optimized for conversions and built with smooth UI sections.",
-    image: "/Frontend/Real-Estate.webp",
+    image: "/Frontend/Real-Estate-01.webp",
     tags: ["HTML5", "CSS3", "Tailwind CSS", "Framer Motion", "React JS", "JSON API"],
     links: {
       code: "https://github.com/ridwanbuild/Trustbrick-landing-page",
@@ -130,7 +130,7 @@ export const projectsData = [
     title: "Business Website – WordPress",
     category: "WordPress",
     description: "A clean and professional WordPress business website built with Elementor, optimized for SEO, branding consistency, responsiveness, and fast loading.",
-    image: "/features-image/project-01.webp",
+    image: "/wordpress/Business-Website-01.webp",
     tags: ["WordPress", "Elementor"],
     links: {
       code: "#",
@@ -142,7 +142,7 @@ export const projectsData = [
     title: "Custom WordPress Website",
     category: "WordPress",
     description: "A fully customized WordPress website crafted with Elementor, featuring tailored UI design, improved layout structure, and clean animations for better user experience.",
-    image: "/features-image/project-02.png",
+    image: "/wordpress/Custom-WordPress-01.webp",
     tags: ["WordPress", "Elementor"],
     links: {
       code: "#",
@@ -154,7 +154,7 @@ export const projectsData = [
     title: "Clone Website (WordPress)",
     category: "WordPress",
     description: "A high-quality cloned website built with WordPress, matching layout, structure, responsiveness, and overall design of the original site.",
-    image: "/features-image/project-03.webp",
+    image: "/wordpress/Clone-Website-01.webp",
     tags: ["WordPress", "WooCommerce"],
     links: {
       code: "#",
@@ -166,7 +166,7 @@ export const projectsData = [
     title: "FitNation Gym Website",
     category: "WordPress",
     description: "A modern fitness and gym website built using Elementor. Includes class schedules, membership plans, pricing tables, gallery, and a dynamic user experience.",
-    image: "/features-image/project-06.webp",
+    image: "/wordpress/FitNation-Gym-01.webp",
     tags: ["WordPress", "Elementor"],
     links: {
       code: "#",
