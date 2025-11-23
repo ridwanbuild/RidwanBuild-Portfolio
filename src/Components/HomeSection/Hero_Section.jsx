@@ -15,7 +15,7 @@ export default function HeroSection() {
           {/* ✅ Image section */}
           <div className="lg:pt-0 pt-8 flex lg:w-96 bg-gradient-to-t from-zinc-200 via-slate-200 to-gray-100 border-3 rounded-2xl border-blue-400 items-center justify-center order-1 lg:order-2">
             <Image
-              src="/portflio image.png"
+              src="/CV/portflio-image.png"
               width={500}
               height={500}
               alt="Portfolio image"
